@@ -10,4 +10,5 @@ def read_root():
 
 @app.get("/get_mac_user_name")
 def get_mac_user_name_route():
-    return get_mac_user_name()
+    port = ''
+    return get_mac_user_name(port)
